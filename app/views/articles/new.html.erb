@@ -1,0 +1,31 @@
+
+<h1> Registrartion</h1>
+
+<%= form_for :article, url: articles_path do |f| %>
+
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_area :email %>
+  </p>
+
+  <p>
+    <%= f.label :phone_number %><br>
+    <%= f.text_area :phone_number %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+<div class="list-group col-md-3" id="menu_position" >
+          <a href="welcome/index" class="list-group-item">Home</a>
+          <a href="/articles" class="list-group-item">Gallery</a>
+          <a href="" class="list-group-item">Events</a>
+          <a href="#" class="list-group-item">Contact Us</a> 
+          <a href="/articles/new" class="list-group-item">Registration</a> 
+      </div>

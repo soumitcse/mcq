@@ -1,0 +1,24 @@
+
+<footer class="footer-background footer <%= @sticky_footer ? "navbar-fixed-bottom" : ""%>">
+<div class="container-fluid" >
+  <% #TODO Check why footer-text in row is NOT applicable to child elements %>
+  <div class="row footer-text">
+    <div class="col-sm-4 footer-text">
+    &copy; SouSalMcq. All Rights Reserved.
+
+    </div>
+
+<!--     <div class="col-sm-4 footer-text TAC">
+    <%# link_to "Privacy Policy", privacy_policy_path(), class: "footer-text"%>|<%# link_to "Terms and Conditions", terms_and_conditions_path(), class: "footer-text" %>|<%# link_to "Pricing", pricing_path(), class: "footer-text"%>
+    </div>
+ -->
+    <div class="col-sm-4 pull-right"  style="width:auto;">
+      <a target="_blank" href="https://www.facebook.com/augbrain"><i class="fa fa-facebook footer-text"></i></a>
+      <a target="_blank" href="https://twitter.com/AugBrain"><i class="fa fa-twitter footer-text"></i></a>
+      <a target="_blank" href="mailto:admin@augbrain.com"><i class="fa fa-envelope footer-text"></i></a>    
+    </div>
+
+  </div>
+
+</div><!--/.container-fluid -->
+</footer>

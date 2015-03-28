@@ -1,0 +1,51 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require bootstrap
+ *= require bootstrap-wysihtml5
+ *= require_tree .
+ */
+
+#page_backcolor{
+ 
+}
+
+
+input[type="password"], input[type="email"], input[type="text"], input[type="number"] {
+	height:25px !important;
+	width:100% !important;
+}
+
+.btn-edge {
+    border-radius: 0px;
+}
+
+.sharp-edge {
+    border-radius: 0px;
+}
+
+
+/*CSS for footer*/
+.footer-text {
+    color: #9e9d9d;
+    margin: 5px;
+}
+
+.footer-background {
+    background-color:#cecccc;
+}
+
+.footer-icons {
+    color: #9e9d9d;
+}
+.remove_bottom_margin{
+	margin-bottom: 0;
+}

@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.name %></td>
+      <td><%= article.email %></td>
+      <td><%= article.phone_number %></td>
+    </tr>
+  <% end %>
+</table>
